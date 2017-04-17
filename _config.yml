@@ -1,0 +1,40 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: source
+destination: ../../greenismylife
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: green is my life
+description: "A project for Dr. Crowley's 17SS ANTH2040 final project"
+keywords: "hippy, environment, conservation, sustainability, alternative energy"
+
+# Site settings
+url: http://greenismy.life
+#baseurl: "/"
+# baseurl: ""
+
+# Author settings
+author:
+  name      : Kevin Ernst
+  job       : Student
+  bio       : ""
+  thumb     : /images/author.jpg
+  email     : ernstki.uc+greenismylife@gmail.uc.edu
+  github    : http://github.com/ernstki/greenismylife
+  twitter   : http://twitter.com/ernstki
+
+# google_analytics: UA-52446115-1
+repo: http://github.com/nandomoreirame/dotX
