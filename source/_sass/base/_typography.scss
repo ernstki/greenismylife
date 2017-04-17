@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Oswald:300,500,600');
+@import url('https://fonts.googleapis.com/css?family=Lato:500,600|Oswald:300,500,600');
 
 body {
   color: $base-font-color;
@@ -46,9 +46,9 @@ input, select, textarea {
 
 a.button, button {
     font-family: $heading-font-family;
-    font-size: inherit;
+    font-size: 1.2em;
     font-weight: $font-weight-light;
-    line-height: inherit;
+    line-height: 0.5em;
 }
 
 hr {

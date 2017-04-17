@@ -23,6 +23,7 @@ keywords: "hippy, environment, conservation, sustainability, alternative energy"
 
 # Site settings
 url: http://greenismy.life
+excerpt_separator: <!--more-->
 #baseurl: "/"
 # baseurl: ""
 

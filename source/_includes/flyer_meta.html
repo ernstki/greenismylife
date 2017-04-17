@@ -1,0 +1,28 @@
+<table class="flyer-meta">
+  <thead></thead>
+  <tbody>
+    <tr>
+      <td>Creator:</td>
+      <td>
+        <a href="mailto:{{ page.creator_email }}?subject=greenismy.life%20flyer"
+          title="Email this flyer's creator">{{ page.creator }}</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Flyer:</td>
+      <td>
+        <a target="_blank" href="/flyers/{{ page.flyer_basename }}.pdf">
+          {{ page.flyer_basename }}.pdf</a> (opens in a new tab)
+      </td>
+    </tr>
+    <tr>
+      <td>Source(s):</td>
+      <td>
+        {% for source in page.sources %}
+        <a href="{{ source.url }}">{{ source.name }}</a>
+        {% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </td>
+    </tr>
+  </tbody>
+</table>

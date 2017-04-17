@@ -7,6 +7,13 @@ title: greenismy.life - poignant, bite-sized eco-facts
 
   {% for post in site.posts %}
     <article class="post-item container">
+      {% if post.flyer_basename %}
+      <div class="flyer-thumbnail">
+        <a title="view this flyer" href="{{ post.url | prepend: site.baseurl }}">
+          <img class="post-thumbnail" alt="flyer thumbnail" src="/flyers/{{post.flyer_basename}}.png">
+        </a>
+      </div>
+      {% endif %}
       <header>
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
         <h1 class="post-title">
@@ -15,10 +22,20 @@ title: greenismy.life - poignant, bite-sized eco-facts
       </header>
 
       <p>
-        {{ post.content | truncatewords: 56 }}
+        Creator: <a href="mailto:{{ post.creator_email }}?subject=greenismy.life%20flyer"
+          title="Email this flyer's creator">{{ post.creator }}</a><br>
+        Flyer: <a target="_blank" href="/flyers/{{ post.flyer_basename }}.pdf">
+          {{ post.flyer_basename }}.pdf</a> (opens in a new tab)<br>
+        Source(s):
+        {% for source in post.sources %}
+        <a href="{{ source.url }}">{{ source.name }}</a>
+        {% if forloop.last == false %}, {% endif %}
+        {% endfor %}
         <!-- <a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}" class="read-more">Read more</a> -->
       </p>
+
     </article>
+    <div class="clearfix"></div>
   {% endfor %}
 
 </section>
