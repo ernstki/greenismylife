@@ -14,3 +14,8 @@ entitled "Humans and Nature: Living in the Anthropocene" (ANTH2040).
 ## Credits
 Theme based on [Fernando Moreira](https://github.com/nandomoreirame)'s
 [dotX theme for Jekyll](https://github.com/nandomoreirame/dotX).
+
+Incorporates Adam Whitcroft's [Apaxy][] index theme for the directory listings
+under <http://greenismy.life/flyers>.
+
+[apaxy]: https://github.com/AdamWhitcroft/apaxy

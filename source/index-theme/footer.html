@@ -1,0 +1,41 @@
+	<div class="block">
+    <p>
+      <a href="http://greenismy.life">greenismy.life</a> is a project by Carly
+      Dovale, Kevin Ernst, Harrison Stanley, and Alexus Wimbish for Dr. Crowley's
+      spring 2016 course entitled "Humans and Nature: Living in the Anthropocene"
+      (ANTH2040).
+    </p>
+
+    <p>
+      The flyers in this directory are licensed under the
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+        Attribution 4.0 International License</a>.<br>
+    </p>
+    <p style="text-align:center">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+        <img alt="Creative Commons License" style="border-width:0"
+             src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+      </a>
+    </p>
+
+	</div><!--/.postlisting-->
+
+</div><!--/.wrapper-->
+
+<div class="footer">
+	Apaxy by <a href="https://twitter.com/adamwhitcroft">@adamwhitcroft</a>
+</div><!--/.footer-->
+<script type="text/javascript">
+// grab the 2nd child and add the parent class. tr:nth-child(2)
+document.getElementsByTagName('tr')[1].className = 'parent';
+// fix links when not adding a / at the end of the URI
+var uri = window.location.pathname.substr(1);
+if (uri.substring(uri.length-1) != '/'){
+	var indexes = document.getElementsByClassName('indexcolname'),
+	i = indexes.length;
+	while (i--){
+	    var a = indexes[i].getElementsByTagName('a')[0];
+	    a.href = '/' + uri + '/' + a.getAttribute('href',2);
+	}
+}
+</script>
