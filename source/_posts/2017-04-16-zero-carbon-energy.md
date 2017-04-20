@@ -34,7 +34,7 @@ uranium yields **20,000 kWh** of energy.
 -->
 
 From information on [this page][anl1] at Argonne National Labs'
-site, we find out that one pount of uranium forms a ball 1.3 inches in
+site, we find out that one pound of uranium forms a ball 1.3 inches in
 diameter, somewhat smaller than size of a golf ball (1.68 inches in diameter).
 
 Since the EPA estimates of 313 million BTU/person-year are for Americans (and
