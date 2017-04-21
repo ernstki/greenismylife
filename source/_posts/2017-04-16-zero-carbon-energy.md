@@ -6,6 +6,7 @@ date:   2017-04-16 17:10:00
 creator: Harrison Stanley
 creator_email: stanleht -at mail.uc.edu
 flyer_basename: "zero_carbon_energy"
+has_svg: true
 sources: 
     - name: eia.gov
       url: https://www.eia.gov/tools/faqs/faq.php?id=85&t=1

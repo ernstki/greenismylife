@@ -44,6 +44,21 @@ under the Creative Commons Attribution (CC-BY) license, [version 4.0
 International][ccby].
 
 ## Credits
+The [SVG versions](/flyers) of the flyers were produced with [Inkscape][].
+
+Fonts used in the flyers are [Cooper Hewitt][ch] (under the [SIL Open Font
+License][sil]), and Memorandum (copyright Corel Corporation). Flyers also
+incorporate the following ([public domain][cc0]) clip art from [openclipart.org](https://openclipart.org):
+
+* [car pictogram](https://openclipart.org/detail/122965/car-pictogram) by
+  pawnk
+* [Hamburger](https://openclipart.org/detail/26558/hamburger) by gramzon
+* [Golf Ball](https://openclipart.org/detail/122965/car-pictogram) by mr.lex
+* [Roadsign watch for bicycles](https://openclipart.org/detail/30253/roadsign-watch-for-bicycles)
+  by Simarilius
+* [elephant silhouet](https://openclipart.org/detail/855/elephant-silhouet)
+  [_sic_] by molumen
+
 This web site was made with the [Jekyll][] static site generator, using a
 [customized version][gh] of the [dotX][] theme by Fernando Moreira.
 
@@ -53,3 +68,7 @@ This web site was made with the [Jekyll][] static site generator, using a
 [jekyll]: https://jekyllrb.com/
 [gh]: https://github.com/ernstki/greenismylife
 [dotx]: https://github.com/nandomoreirame/dotX
+[inkscape]: https://inkscape.org
+[cc0]: http://creativecommons.org/publicdomain/zero/1.0/
+[ch]: https://www.fontsquirrel.com/fonts/cooper-hewitt
+[sil]: https://www.fontsquirrel.com/license/cooper-hewitt
