@@ -29,10 +29,10 @@ General public of all different education levels (not just college students),
 random passers-by in markets and bars.
 
 ## Format
-Single-page flyers with one concise message. An eye-opening statistic like the
+Single-page flyers with one concise message: an eye-opening statistic like the
 number of chickens killed every year, or the number of tons of coal (or
 thousands of metric tons of emissions) that would be saved by producing power
-from 1 g of U-235?
+from 1 g of U-235.
 
 These are intended to inform people quickly about environmental topics,
 potentially giving them the opportunity to make better decisions in their daily
