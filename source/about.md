@@ -28,10 +28,13 @@ General public of all different education levels (not just college students),
 random passers-by in markets and bars.
 
 ## Format
+
 Single-page flyers with one concise message: an eye-opening statistic like the
 number of chickens killed every year, environmental impact of the livestock
 industry, or the number of tons of coal (or thousands of metric tons of
 emissions) that would be saved by producing power from 1 g of U-235.
+
+[![](/assets/img/telford_st.jpg)](/assets/img/telford_st.jpg)
 
 These are intended to inform people quickly about environmental topics,
 potentially giving them the opportunity to make better decisions in their daily
