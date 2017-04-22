@@ -23,7 +23,8 @@ rest of the code for the web site. The SVG versions were created with
 ## Credits
 Fonts used in the flyers are [Cooper Hewitt][ch] (under the [SIL Open Font
 License][sil]), and Memorandum (copyright Corel Corporation). Flyers also
-incorporate the following ([public domain][cc0]) clip art from [openclipart.org](https://openclipart.org):
+incorporate the following [public domain][cc0] clip art from
+[openclipart.org](https://openclipart.org):
 
 * [car pictogram](https://openclipart.org/detail/122965/car-pictogram) by
   pawnk
