@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 source: source
-destination: ../../greenismylife
+destination: ../../kernst.net/greenismylife
 sass:
   sass_dir: _sass
   style: expanded # compressed # expanded
@@ -22,9 +22,10 @@ description: "A project for Dr. Crowley's 17SS ANTH2040 final project"
 keywords: "hippy, environment, conservation, sustainability, alternative energy"
 
 # Site settings
-url: http://greenismy.life
+#url: http://greenismy.life
+url: https://kernst.net/greenismylife
 excerpt_separator: <!--more-->
-#baseurl: "/"
+baseurl: "/greenismylife"
 # baseurl: ""
 
 # Author settings

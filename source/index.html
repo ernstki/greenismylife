@@ -10,7 +10,8 @@ title: greenismy.life - poignant, bite-sized eco-facts
       {% if post.flyer_basename %}
       <div class="flyer-thumbnail">
         <a title="view this flyer" href="{{ post.url | prepend: site.baseurl }}">
-          <img class="post-thumbnail" alt="flyer thumbnail" src="/flyers/{{post.flyer_basename}}.png">
+          <img class="post-thumbnail" alt="flyer thumbnail"
+               src="{{ site.baseurl }}/flyers/{{post.flyer_basename}}.png">
         </a>
       </div>
       {% endif %}
@@ -24,7 +25,7 @@ title: greenismy.life - poignant, bite-sized eco-facts
       <p>
         Creator: <a href="mailto:{{ post.creator_email }}?subject=greenismy.life%20flyer"
           title="Email this flyer's creator">{{ post.creator }}</a><br>
-        Flyer: <a target="_blank" href="/flyers/{{ post.flyer_basename }}.pdf">
+        Flyer: <a target="_blank" href="{{ site.baseurl }}/flyers/{{ post.flyer_basename }}.pdf">
           {{ post.flyer_basename }}.pdf</a> (opens in a new tab)<br>
         Source(s):
         {% for source in post.sources %}

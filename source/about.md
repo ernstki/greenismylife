@@ -11,7 +11,7 @@ environmental issues. Sometimes one striking fact or statistic is all it takes
 to motivate people to make small (or big) but consistent changes in their
 day-to-day habits.
 
-[greenismy.life](/) is a project by Carly Dovale, Kevin Ernst, Harrison
+[greenismy.life]({{ site.url }}) is a project by Carly Dovale, Kevin Ernst, Harrison
 Stanley, and Alexus Wimbish for Dr. Crowley's spring 2016 course entitled
 "Humans and Nature: Living in the Anthropocene" (ANTH2040).
 
@@ -34,7 +34,7 @@ number of chickens killed every year, environmental impact of the livestock
 industry, or the number of tons of coal (or thousands of metric tons of
 emissions) that would be saved by producing power from 1 g of U-235.
 
-[![](/assets/img/telford_st.jpg)](/assets/img/telford_st.jpg)
+[![]({{ site.baseurl }}/assets/img/telford_st.jpg)]({{ site.baseurl }}/assets/img/telford_st.jpg)
 
 These are intended to inform people quickly about environmental topics,
 potentially giving them the opportunity to make better decisions in their daily
@@ -46,7 +46,7 @@ under the Creative Commons Attribution (CC-BY) license, [version 4.0
 International][ccby].
 
 ## Credits
-The [SVG versions](/flyers) of the flyers were produced with [Inkscape][].
+The [SVG versions]({{ site.baseurl }}/flyers) of the flyers were produced with [Inkscape][].
 
 Fonts used in the flyers are [Cooper Hewitt][ch] (under the [SIL Open Font
 License][sil]), and Memorandum (copyright Corel Corporation). Flyers also
@@ -65,7 +65,7 @@ incorporate the following [public domain][cc0] clip art from
 This web site was made with the [Jekyll][] static site generator, using a
 [customized version][gh] of the [dotX][] theme by Fernando Moreira.
 
-![](/assets/img/kitten_and_baby_owl.jpg)
+![Photograph of a baby owl and a kitten]({{ site.baseurl }}/assets/img/kitten_and_baby_owl.jpg)
 
 [ccby]: https://creativecommons.org/licenses/by/4.0/
 [jekyll]: https://jekyllrb.com/

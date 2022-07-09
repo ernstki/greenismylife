@@ -12,12 +12,13 @@
       <td>Flyer:</td>
       <td>
         <a target="_blank" title="(opens in a new tab)"
-           href="/flyers/{{ page.flyer_basename }}.pdf">
+           href="{{ site.baseurl }}/flyers/{{ page.flyer_basename }}.pdf">
           {{ page.flyer_basename }}.pdf</a>
         {% if page.has_svg %}
         &nbsp;
         [<a target="_blank" title="(opens in a new tab)"
-           href="/flyers/{{ page.flyer_basename }}.svg">SVG version</a>]
+            href="{{ site.baseurl }}/flyers/{{ page.flyer_basename }}.svg"
+         >SVG version</a>]
         {% endif %}
       </td>
     </tr>
